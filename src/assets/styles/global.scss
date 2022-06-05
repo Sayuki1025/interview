@@ -1,0 +1,58 @@
+*,
+*:before,
+*:after {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+}
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+ul,
+ol {
+  list-style: none;
+}
+
+em,
+address {
+  font-style: normal;
+  font-weight: normal;
+}
+
+button {
+  background: unset;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: normal;
+}
+
+body {
+  font-family: -apple-system, Helvetica Neue, Helvetica, Nimbus Sans L, Arial,
+    Liberation Sans, PingFang SC, Hiragino Sans GB, Source Han Sans CN,
+    Source Han Sans SC, Microsoft YaHei, Wenquanyi Micro Hei, WenQuanYi Zen Hei,
+    ST Heiti, SimHei, WenQuanYi Zen Hei Sharp, sans-serif;
+}
+
+input,
+textarea {
+  -webkit-appearance: none;
+}
+
+$font: 'Poppins', sans-serif;
+$cyan: #28a3b3;
+$sale-color: #28a3b3;
+$sold-color: #413e6d;
+$dark-color: #333333;
